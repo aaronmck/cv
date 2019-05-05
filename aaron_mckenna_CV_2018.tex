@@ -1,6 +1,6 @@
 %%% A template to produce a nice-looking Curriculum Vitae.
 %%% Original by Kieran Healy <kjhealy@gmail.com>, tweaked by Heather Miller <heather.c.miller@gmail.com>
-%%% Most recent version is at http://github.com/heathermiller/cv
+%%% tweaked even a bit more by Aaron McKenna
 %%%
 %%% ------------------------------------------------------------------------
 %%% Requirements (should be included in a modern tex distribution):
@@ -45,20 +45,18 @@
 \def\mybibliostyle{plain}
 \def\mybibliocommand{}
 \def\mysubtitle{}
-\def\myaffiliation{University Of Washington}
-\def\myaddress{Department of Genome Sciences}
-\def\myemail{aaronmck@uw.edu}
-\def\myweb{www.mckenna-lab.com}
+\def\myaffiliation{Geisel School of Medicine, Dartmouth College}
+\def\myaddress{Department of Molecular and Systems Biology}
+\def\myemail{Aaron.McKenna@Dartmouth.edu}
+\def\myweb{http://mckennalab.org/}
 \def\myfax{aaron_mckenna}
 \def\myphone{+1 (508) 450-8011}
 \def\myversion{}
 \def\myrevision{}
 
-
-\def\myaffiliation{EPFL}
-\def\myauthor{Heather Miller}
+\def\myauthor{Aaron McKenna}
 \date{} % not used (revision control instead)
-\def\mykeywords{Heather, Miller, Heather Miller, Vita, CV, Resume, Scala, Programming Languages}
+\def\mykeywords{Mckenna, lineage, cancer, CRISPR}
 
 %%%------------------------------------------------------------------------
 %%% Git version tracking
@@ -167,7 +165,7 @@
 %%%------------------------------------------------------------------------
 % \begin{absolutelynopagebreak}
 \begin{minipage}[t]{2.95in}
- \flushright {\footnotesize \href{http://gs.washington.edu/}{Department of \\ \vspace{-0.03in} Genome Sciences} \\ University of Washington\\ \vspace{-0.03in} Seattle, WA}
+ \flushright {\footnotesize \href{https://geiselmed.dartmouth.edu/msb/}{Department of Molecular  \\ \vspace{-0.03in} and Systems Biology} \\ Geisel School of Medicine\\Dartmouth College\\ \vspace{-0.03in} Hanover, NH}
 
 \end{minipage}
 \hfill
@@ -267,129 +265,129 @@
 
 \marginhead{First Author\newline Publications }
 
-\noindent\href{https://doi.org/10.1101/189068}{FlashFry: a fast and flexible tool for large-scale CRISPR target design.}
+\noindent\href{https://doi.org/10.1101/189068}{FlashFry: a fast and flexible tool for large-scale CRISPR target design}
 \newline\noindent \textbf{Aaron McKenna} and Jay Shendure
 \newline\noindent\emph{ BioRxiv} 2017. (Accepted at \emph{BMC Biology})
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(27229144)}{\bf  Whole-organism lineage tracing by combinatorial and cumulative genome editing}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/27229144}{\bf  Whole-organism lineage tracing by combinatorial and cumulative genome editing}\vspace{-0.03in}
 \newline\noindent \textbf{McKenna A*}, Findlay GM*, Gagnon JA*, Horwitz MS, Schier AF, Shendure J
 \newline\noindent\emph{ Science} 2016 Jul 29;353(6298):aaf7907
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(24120142)}{\bf  The somatic genomic landscape of glioblastoma}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/24120142}{\bf  The somatic genomic landscape of glioblastoma}\vspace{-0.03in}
 \newline\noindent Brennan CW*, Verhaak RG*, \textbf{McKenna A*}, Campos B, Noushmehr H, Salama SR, Zheng S, Chakravarty D, Sanborn JZ, Berman SH, Beroukhim R, Bernard B, Wu CJ, Genovese G,  Shmulevich I, Barnholtz-Sloan J, Zou L, Vegesna R, Shukla SA, Ciriello G, Yung WK, Zhang W, Sougnez C, Mikkelsen T, Aldape K, Bigner DD, Van Meir EG, Prados M,  Sloan A, Black KL, Eschbacher J, Finocchiaro G, Friedman W, Andrews DW, Guha A, Iacocca M, O'Neill BP, Foltz G, Myers J, Weisenberger DJ, Penny R, Kucherlapati R, Perou CM, Hayes DN, Gibbs R, Marra M, Mills GB, Lander E, Spellman P, Wilson R, Sander C, Weinstein J, Meyerson M, Gabriel S, Laird PW, Haussler D, Getz G, Chin L; TCGA Research Network
 \newline\noindent\emph{ Cell} 2013 Oct 10;155(2):462-77
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(21803805)}{\bf  ContEst: estimating cross-contamination of human samples in next-generation sequencing data}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/21803805}{\bf  ContEst: estimating cross-contamination of human samples in next-generation sequencing data}\vspace{-0.03in}
 \newline\noindent Cibulskis K*, \textbf{McKenna A*}, Fennell T, Banks E, DePristo M, Getz G
 \newline\noindent\emph{ Bioinformatics} 2011 Sep 15;27(18):2601-2
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(20644199)}{\bf  The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/20644199}{\bf  The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data}\vspace{-0.03in}
 \newline\noindent \textbf{McKenna A}, Hanna M, Banks E, Sivachenko A, Cibulskis K, Kernytsky A, Garimella K, Altshuler D, Gabriel S, Daly M, DePristo MA
 \newline\noindent\emph{ Genome Res} 2010 Sep;20(9):1297-303
 \bigskip
 
 \marginhead{Publications}
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(29608178)}{\bf  Simultaneous single-cell profiling of lineages and cell types in the vertebrate brain}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/29608178}{\bf  Simultaneous single-cell profiling of lineages and cell types in the vertebrate brain}\vspace{-0.03in}
 \newline\noindent Raj B, Wagner DE, \textbf{McKenna A}, Pandey S, Klein AM, Shendure J, Gagnon JA, Schier AF
 \newline\noindent\emph{ Nat Biotechnology} 2018 Jun;36(5):442-450
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(28712454)}{\bf  CRISPR/Cas9-Mediated Scanning for Regulatory Elements Required for HPRT1 Expression via Thousands of Large, Programmed Genomic Deletions}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/28712454}{\bf  CRISPR/Cas9-Mediated Scanning for Regulatory Elements Required for HPRT1 Expression via Thousands of Large, Programmed Genomic Deletions}\vspace{-0.03in}
 \newline\noindent Gasperini M, Findlay GM, \textbf{McKenna A}, Milbank JH, Lee C, Zhang MD, Cusanovich DA, Shendure J
 \newline\noindent\emph{ Am J Hum Genetics} 2017 Aug 3;101(2):192-205
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(28594900)}{\bf  Systematic genomic and translational efficiency studies of uveal melanoma}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/28594900}{\bf  Systematic genomic and translational efficiency studies of uveal melanoma}\vspace{-0.03in}
 \newline\noindent Johnson CP, Kim IK, Esmaeli B, Amin-Mansour A, Treacy DJ, Carter SL, Hodis E,  Wagle N, Seepo S, Yu X, Lane AM, Gragoudas ES, Vazquez F, Nickerson E, Cibulskis  K, \textbf{McKenna A}, Gabriel SB, Getz G, Van Allen EM, 't Hoen PAC, Garraway LA, Woodman SE
 \newline\noindent\emph{ PLoS One} 2017 Jun 8;12(6):e0178189
 \bigskip
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(27167109)}{\bf  A comparative assessment of clinical whole exome and transcriptome profiling across sequencing centers: implications for precision cancer medicine}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/27167109}{\bf  A comparative assessment of clinical whole exome and transcriptome profiling across sequencing centers: implications for precision cancer medicine}\vspace{-0.03in}
 \newline\noindent Van Allen EM, Robinson D, Morrissey C, Pritchard C, Imamovic A, Carter S, Rosenberg M, \textbf{McKenna A}, Wu YM, Cao X, Chinnaiyan A, Garraway L, Nelson PS
 \newline\noindent\emph{ Oncotarget} 2016  Aug 16;7(33):52888-52899
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(26410082)}{\bf  Genomic Characterization of Brain Metastases Reveals Branched Evolution and Potential Therapeutic Targets}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/26410082}{\bf  Genomic Characterization of Brain Metastases Reveals Branched Evolution and Potential Therapeutic Targets}\vspace{-0.03in}
 \newline\noindent Brastianos PK, Carter SL, Santagata S, Cahill DP, Taylor-Weiner A, Jones RT, Van Allen EM, Lawrence MS, Horowitz PM, Cibulskis K, Ligon KL, Tabernero J, Seoane J, Martinez-Saez E, Curry WT, Dunn IF, Paek SH, Park SH, \textbf{McKenna A}, Chevalier A, Rosenberg M, Barker FG 2nd, Gill CM, Van Hummelen P, Thorner AR, Johnson BE, Hoang MP, Choueiri TK, Signoretti S, Sougnez C, Rabin MS, Lin NU, Winer EP, Stemmer-Rachamimov A, Meyerson M, Garraway L, Gabriel S, Lander ES, Beroukhim R, Batchelor TT, Baselga J, Louis DN, Getz G, Hahn WC
 \newline\noindent\emph{ Cancer Discovery} 2015 Nov;5(11):1164-1177
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(26192918)}{\bf  Paired exome analysis of Barrett's esophagus and adenocarcinoma}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/26192918}{\bf  Paired exome analysis of Barrett's esophagus and adenocarcinoma}\vspace{-0.03in}
 \newline\noindent Stachler MD, Taylor-Weiner A, Peng S, \textbf{McKenna A}, Agoston AT, Odze RD, Davison  JM, Nason KS, Loda M, Leshchiner I, Stewart C, Stojanov P, Seepo S, Lawrence MS,  Ferrer-Torres D, Lin J, Chang AC, Gabriel SB, Lander ES, Beer DG, Getz G, Carter  SL, Bass AJ
 \newline\noindent\emph{ Nat Genetics} 2015 Sep;47(9):1047-55
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(26181029)}{\bf  Genomic Correlate of Exceptional Erlotinib Response in Head and Neck Squamous Cell Carcinoma}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/26181029}{\bf  Genomic Correlate of Exceptional Erlotinib Response in Head and Neck Squamous Cell Carcinoma}\vspace{-0.03in}
 \newline\noindent Van Allen EM, Lui VW, Egloff AM, Goetz EM, Li H, Johnson JT, Duvvuri U, Bauman JE, Stransky N, Zeng Y, Gilbert BR, Pendleton KP, Wang L, Chiosea S, Sougnez C, Wagle N, Zhang F, Du Y, Close D, Johnston PA, \textbf{McKenna A}, Carter SL, Golub TR, Getz G, Mills GB, Garraway LA, Grandis JR
 \newline\noindent\emph{ JAMA Oncology} 2015 May;1(2):238-44
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(25957691)}{\bf  Prospective derivation of a living organoid biobank of colorectal cancer patients}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/25957691}{\bf  Prospective derivation of a living organoid biobank of colorectal cancer patients}\vspace{-0.03in}
 \newline\noindent van de Wetering M, Francies HE, Francis JM, Bounova G, Iorio F, Pronk A, van Houdt W, van Gorp J, Taylor-Weiner A, Kester L, McLaren-Douglas A, Blokker J, Jaksani S, Bartfeld S, Volckman R, van Sluis P, Li VS, Seepo S, Sekhar Pedamallu  C, Cibulskis K, Carter SL, \textbf{McKenna A}, Lawrence MS, Lichtenstein L, Stewart C, Koster J, Versteeg R, van Oudenaarden A, Saez-Rodriguez J, Vries RG, Getz G, Wessels L, Stratton MR, McDermott U, Meyerson M, Garnett MJ, Clevers H
 \newline\noindent\emph{ Cell} 2015 May 7;161(4):933-45
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(25512523)}{\bf  Complementary genomic approaches highlight the PI3K/mTOR pathway as a common vulnerability in osteosarcoma}\vspace{-0.03in}
-\newline\noindent Perry JA, Kiezun A, Tonzi P, Van Allen EM, Carter SL, Baca SC, Cowley GS, Bhatt AS, Rheinbay E, Pedamallu CS, Helman E, Taylor-Weiner A, \textbf{McKenna A}, DeLuca  DS, Lawrence MS, Ambrogio L, Sougnez C, Sivachenko A, Walensky LD, Wagle N, Mora  J, de Torres C, Lavarino C, Dos Santos Aguiar S, Yunes JA, Brandalise SR, Mercado-Celis GE, Melendez-Zajgla J, Cárdenas-Cardós R, Velasco-Hidalgo L, Roberts CW, Garraway LA, Rodriguez-Galindo C, Gabriel SB, Lander ES, Golub TR, Orkin SH, Getz G, Janeway KA
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/25512523}{\bf  Complementary genomic approaches highlight the PI3K/mTOR pathway as a common vulnerability in osteosarcoma}\vspace{-0.03in}
+\newline\noindent Perry JA, Kiezun A, Tonzi P, Van Allen EM, Carter SL, Baca SC, Cowley GS, Bhatt AS, Rheinbay E, Pedamallu CS, Helman E, Taylor-Weiner A, \textbf{McKenna A}, DeLuca  DS, Lawrence MS, Ambrogio L, Sougnez C, Sivachenko A, Walensky LD, Wagle N, Mora  J, de Torres C, Lavarino C, Dos Santos Aguiar S, Yunes JA, Brandalise SR, Mercado-Celis GE, Melendez-Zajgla J, CÃ¡rdenas-CardÃ³s R, Velasco-Hidalgo L, Roberts CW, Garraway LA, Rodriguez-Galindo C, Gabriel SB, Lander ES, Golub TR, Orkin SH, Getz G, Janeway KA
 \newline\noindent\emph{ Proc Natl Acad Sci U S A} 2014 Dec 23;111(51):E5564-73
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(25186949)}{\bf  The genomic landscape of pediatric Ewing sarcoma}\vspace{-0.03in}
-\newline\noindent Crompton BD, Stewart C, Taylor-Weiner A, Alexe G, Kurek KC, Calicchio ML, Kiezun A, Carter SL, Shukla SA, Mehta SS, Thorner AR, de Torres C, Lavarino C, Suñol M, \textbf{McKenna A}, Sivachenko A, Cibulskis K, Lawrence MS, Stojanov P, Rosenberg M, Ambrogio L, Auclair D, Seepo S, Blumenstiel B, DeFelice M, Imaz-Rosshandler I, Schwarz-Cruz Y Celis A, Rivera MN, Rodriguez-Galindo C, Fleming MD, Golub TR, Getz G, Mora J, Stegmaier K
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/25186949}{\bf  The genomic landscape of pediatric Ewing sarcoma}\vspace{-0.03in}
+\newline\noindent Crompton BD, Stewart C, Taylor-Weiner A, Alexe G, Kurek KC, Calicchio ML, Kiezun A, Carter SL, Shukla SA, Mehta SS, Thorner AR, de Torres C, Lavarino C, SuÃ±ol M, \textbf{McKenna A}, Sivachenko A, Cibulskis K, Lawrence MS, Stojanov P, Rosenberg M, Ambrogio L, Auclair D, Seepo S, Blumenstiel B, DeFelice M, Imaz-Rosshandler I, Schwarz-Cruz Y Celis A, Rivera MN, Rodriguez-Galindo C, Fleming MD, Golub TR, Getz G, Mora J, Stegmaier K
 \newline\noindent\emph{ Cancer Discovery} 2014 Nov;4(11):1326-41
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(24836576)}{\bf  Whole-exome sequencing and clinical interpretation of formalin-fixed, paraffin-embedded tumor samples to guide precision cancer medicine}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/24836576}{\bf  Whole-exome sequencing and clinical interpretation of formalin-fixed, paraffin- embedded tumor samples to guide precision cancer medicine}\vspace{-0.03in}
 \newline\noindent Van Allen EM, Wagle N, Stojanov P, Perrin DL, Cibulskis K, Marlow S, Jane-Valbuena J, Friedrich DC, Kryukov G, Carter SL, \textbf{McKenna A}, Sivachenko A, Rosenberg M, Kiezun A, Voet D, Lawrence M, Lichtenstein LT, Gentry JG, Huang FW,  Fostel J, Farlow D, Barbie D, Gandhi L, Lander ES, Gray SW, Joffe S, Janne P, Garber J, MacConaill L, Lindeman N, Rollins B, Kantoff P, Fisher SA, Gabriel S, Getz G, Garraway LA
 \newline\noindent\emph{ Nat Med} 2014 Jun;20(6):682-8
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(24630729)}{\bf  Genetic and clonal dissection of murine small cell lung carcinoma progression by genome sequencing}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/24630729}{\bf  Genetic and clonal dissection of murine small cell lung carcinoma progression by genome sequencing}\vspace{-0.03in}
 \newline\noindent McFadden DG, Papagiannakopoulos T, Taylor-Weiner A, Stewart C, Carter SL, Cibulskis K, Bhutkar A, \textbf{McKenna A}, Dooley A, Vernon A, Sougnez C, Malstrom S, Heimann M, Park J, Chen F, Farago AF, Dayton T, Shefler E, Gabriel S, Getz G, Jacks T
 \newline\noindent\emph{ Cell} 2014 Mar 13;156(6):1298-1311
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(24434212)}{\bf  Widespread genetic heterogeneity in multiple myeloma: implications for targeted therapy}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/24434212}{\bf  Widespread genetic heterogeneity in multiple myeloma: implications for targeted therapy}\vspace{-0.03in}
 \newline\noindent Lohr JG, Stojanov P, Carter SL, Cruz-Gordillo P, Lawrence MS, Auclair D, Sougnez C, Knoechel B, Gould J, Saksena G, Cibulskis K, \textbf{McKenna A}, Chapman MA, Straussman R, Levy J, Perkins LM, Keats JJ, Schumacher SE, Rosenberg M; Multiple  Myeloma Research Consortium, Getz G, Golub TR
 \newline\noindent\emph{ Cancer Cell} 2014 Jan 13;25(1):91-101
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(24390348)}{\bf  Landscape of genomic alterations in cervical carcinomas}\vspace{-0.03in}
-\newline\noindent Ojesina AI, Lichtenstein L, Freeman SS, Pedamallu CS, Imaz-Rosshandler I, Pugh TJ, Cherniack AD, Ambrogio L, Cibulskis K, Bertelsen B, Romero-Cordoba S, Treviño V, Vazquez-Santillan K, Guadarrama AS, Wright AA, Rosenberg MW, Duke F, Kaplan B, Wang R, Nickerson E, Walline HM, Lawrence MS, Stewart C, Carter SL, \textbf{McKenna A}, Rodriguez-Sanchez IP, Espinosa-Castilla M, Woie K, Bjorge L, Wik E, Halle MK, Hoivik EA, Krakstad C, Gabiño NB, Gómez-Macías GS, Valdez-Chapa LD, Garza-Rodríguez ML, Maytorena G, Vazquez J, Rodea C, Cravioto A, Cortes ML, Greulich H, Crum CP, Neuberg DS, Hidalgo-Miranda A, Escareno CR, Akslen LA, Carey TE, Vintermyr OK, Gabriel SB, Barrera-Saldaña HA, Melendez-Zajgla J, Getz G, Salvesen HB, Meyerson M
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/24390348}{\bf  Landscape of genomic alterations in cervical carcinomas}\vspace{-0.03in}
+\newline\noindent Ojesina AI, Lichtenstein L, Freeman SS, Pedamallu CS, Imaz-Rosshandler I, Pugh TJ, Cherniack AD, Ambrogio L, Cibulskis K, Bertelsen B, Romero-Cordoba S, TreviÃ±o V, Vazquez-Santillan K, Guadarrama AS, Wright AA, Rosenberg MW, Duke F, Kaplan B, Wang R, Nickerson E, Walline HM, Lawrence MS, Stewart C, Carter SL, \textbf{McKenna A}, Rodriguez-Sanchez IP, Espinosa-Castilla M, Woie K, Bjorge L, Wik E, Halle MK, Hoivik EA, Krakstad C, GabiÃ±o NB, GÃ³mez-MacÃ­as GS, Valdez-Chapa LD, Garza-RodrÃ­guez ML, Maytorena G, Vazquez J, Rodea C, Cravioto A, Cortes ML, Greulich H, Crum CP, Neuberg DS, Hidalgo-Miranda A, Escareno CR, Akslen LA, Carey TE, Vintermyr OK, Gabriel SB, Barrera-SaldaÃ±a HA, Melendez-Zajgla J, Getz G, Salvesen HB, Meyerson M
 \newline\noindent\emph{ Nature} 2014 Feb 20;506(7488):371-5
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(24323028)}{\bf  Integrative and comparative genomic analysis of lung squamous cell carcinomas  in East Asian patients}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/24323028}{\bf  Integrative and comparative genomic analysis of lung squamous cell carcinomas  in East Asian patients}\vspace{-0.03in}
 \newline\noindent Kim Y, Hammerman PS, Kim J, Yoon JA, Lee Y, Sun JM, Wilkerson MD, Pedamallu CS, Cibulskis K, Yoo YK, Lawrence MS, Stojanov P, Carter SL, \textbf{McKenna A}, Stewart C, Sivachenko AY, Oh IJ, Kim HK, Choi YS, Kim K, Shim YM, Kim KS, Song SY, Na KJ, Choi YL, Hayes DN, Kim J, Cho S, Kim YC, Ahn JS, Ahn MJ, Getz G, Meyerson M, Park K
 \newline\noindent\emph{ J Clin Oncology} 2014 Jan 10;32(2):121-8
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(24265154)}{\bf  MAP kinase  pathway alterations in BRAF-mutant melanoma patients with acquired resistance to  combined RAF/MEK inhibition}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/24265154}{\bf  MAP kinase  pathway alterations in BRAF-mutant melanoma patients with acquired resistance to  combined RAF/MEK inhibition}\vspace{-0.03in}
 \newline\noindent Wagle N, Van Allen EM, Treacy DJ, Frederick DT, Cooper ZA, Taylor-Weiner A, Rosenberg M, Goetz EM, Sullivan RJ, Farlow DN, Friedrich DC, Anderka K, Perrin D, Johannessen CM, \textbf{McKenna A}, Cibulskis K, Kryukov G, Hodis E, Lawrence DP, Fisher S, Getz G, Gabriel SB, Carter SL, Flaherty KT, Wargo JA, Garraway LA
 \newline\noindent\emph{ Cancer Discovery} 2014 Jan;4(1):61-8
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(24265153)}{\bf  The genetic landscape of clinical resistance to RAF inhibition in metastatic melanoma}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/24265153}{\bf  The genetic landscape of clinical resistance to RAF inhibition in metastatic melanoma}\vspace{-0.03in}
 \newline\noindent Van Allen EM, Wagle N, Sucker A, Treacy DJ, Johannessen CM, Goetz EM, Place CS, Taylor-Weiner A, Whittaker S, Kryukov GV, Hodis E, Rosenberg M, \textbf{McKenna A}, Cibulskis K, Farlow D, Zimmer L, Hillen U, Gutzmer R, Goldinger SM, Ugurel S, Gogas HJ, Egberts F, Berking C, Trefzer U, Loquai C, Weide B, Hassel JC, Gabriel  SB, Carter SL, Getz G, Garraway LA, Schadendorf D; Dermatologic Cooperative Oncology Group of Germany (DeCOG)
 \newline\noindent\emph{ Cancer Discovery} 2014 Jan;4(1):94-109
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(24185511)}{\bf  Somatic mutation of CDKN1B in small intestine neuroendocrine tumors}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/24185511}{\bf  Somatic mutation of CDKN1B in small intestine neuroendocrine tumors}\vspace{-0.03in}
 \newline\noindent Francis JM, Kiezun A, Ramos AH, Serra S, Pedamallu CS, Qian ZR, Banck MS, Kanwar R, Kulkarni AA, Karpathakis A, Manzo V, Contractor T, Philips J, Nickerson E, Pho N, Hooshmand SM, Brais LK, Lawrence MS, Pugh T, \textbf{McKenna A}, Sivachenko A, Cibulskis K, Carter SL, Ojesina AI, Freeman S, Jones RT, Voet D, Saksena G, Auclair D, Onofrio R, Shefler E, Sougnez C, Grimsby J, Green L, Lennon N, Meyer T, Caplin M, Chung DC, Beutler AS, Ogino S, Thirlwell C, Shivdasani R, Asa SL, Harris CR, Getz G, Kulke M, Meyerson M
 \newline\noindent\emph{ Nat Genetics} 2013 Dec;45(12):1483-6
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(23796897)}{\bf  A survey of intragenic breakpoints in glioblastoma identifies a distinct subset associated with poor survival}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/23796897}{\bf  A survey of intragenic breakpoints in glioblastoma identifies a distinct subset associated with poor survival}\vspace{-0.03in}
 \newline\noindent Zheng S, Fu J, Vegesna R, Mao Y, Heathcock LE, Torres-Garcia W, Ezhilarasan R, Wang S, \textbf{McKenna A}, Chin L, Brennan CW, Yung WK, Weinstein JN, Aldape KD, Sulman EP, Chen K, Koul D, Verhaak RG
 \newline\noindent\emph{ Genes Dev} 2013 Jul 1;27(13):1462-72
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(23770567)}{\bf  Mutational heterogeneity in cancer and the search for new cancer-associated genes}\vspace{-0.03in}
-\newline\noindent Lawrence MS, Stojanov P, Polak P, Kryukov GV, Cibulskis K, Sivachenko A, Carter SL, Stewart C, Mermel CH, Roberts SA, Kiezun A, Hammerman PS, \textbf{McKenna A}, Drier Y, Zou L, Ramos AH, Pugh TJ, Stransky N, Helman E, Kim J, Sougnez C, Ambrogio L, Nickerson E, Shefler E, Cortés ML, Auclair D, Saksena G, Voet D, Noble M, DiCara D, Lin P, Lichtenstein L, Heiman DI, Fennell T, Imielinski M, Hernandez B, Hodis E, Baca S, Dulak AM, Lohr J, Landau DA, Wu CJ, Melendez-Zajgla J, Hidalgo-Miranda A, Koren A, McCarroll SA, Mora J, Crompton B, Onofrio R, Parkin M, Winckler W, Ardlie K, Gabriel SB, Roberts CWM, Biegel JA, Stegmaier K,  Bass AJ, Garraway LA, Meyerson M, Golub TR, Gordenin DA, Sunyaev S, Lander ES, Getz G
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/23770567}{\bf  Mutational heterogeneity in cancer and the search for new cancer-associated genes}\vspace{-0.03in}
+\newline\noindent Lawrence MS, Stojanov P, Polak P, Kryukov GV, Cibulskis K, Sivachenko A, Carter SL, Stewart C, Mermel CH, Roberts SA, Kiezun A, Hammerman PS, \textbf{McKenna A}, Drier Y, Zou L, Ramos AH, Pugh TJ, Stransky N, Helman E, Kim J, Sougnez C, Ambrogio L, Nickerson E, Shefler E, CortÃ©s ML, Auclair D, Saksena G, Voet D, Noble M, DiCara D, Lin P, Lichtenstein L, Heiman DI, Fennell T, Imielinski M, Hernandez B, Hodis E, Baca S, Dulak AM, Lohr J, Landau DA, Wu CJ, Melendez-Zajgla J, Hidalgo-Miranda A, Koren A, McCarroll SA, Mora J, Crompton B, Onofrio R, Parkin M, Winckler W, Ardlie K, Gabriel SB, Roberts CWM, Biegel JA, Stegmaier K,  Bass AJ, Garraway LA, Meyerson M, Golub TR, Gordenin DA, Sunyaev S, Lander ES, Getz G
 \newline\noindent\emph{ Nature} 2013 Jul 11;499(7457):214-218
 \bigskip
 
@@ -398,82 +396,82 @@
 \newline\noindent\emph{ Proc Natl Acad Sci U S A} 2013 May 14;110(20):8188-93
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(23525077)}{\bf  Exome and whole-genome sequencing of esophageal adenocarcinoma identifies recurrent driver events and mutational complexity}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/23525077}{\bf  Exome and whole-genome sequencing of esophageal adenocarcinoma identifies recurrent driver events and mutational complexity}\vspace{-0.03in}
 \newline\noindent Dulak AM, Stojanov P, Peng S, Lawrence MS, Fox C, Stewart C, Bandla S, Imamura Y, Schumacher SE, Shefler E, \textbf{McKenna A}, Carter SL, Cibulskis K, Sivachenko A, Saksena G, Voet D, Ramos AH, Auclair D, Thompson K, Sougnez C, Onofrio RC, Guiducci C, Beroukhim R, Zhou Z, Lin L, Lin J, Reddy R, Chang A, Landrenau R, Pennathur A, Ogino S, Luketich JD, Golub TR, Gabriel SB, Lander ES,  Beer DG, Godfrey TE, Getz G, Bass AJ
 \newline\noindent\emph{ Nat Genetics} 2013 May;45(5):478-86
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(23415222)}{\bf  Evolution and impact of subclonal mutations in chronic lymphocytic leukemia}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/23415222}{\bf  Evolution and impact of subclonal mutations in chronic lymphocytic leukemia}\vspace{-0.03in}
 \newline\noindent Landau DA, Carter SL, Stojanov P, \textbf{McKenna A}, Stevenson K, Lawrence MS, Sougnez C, Stewart C, Sivachenko A, Wang L, Wan Y, Zhang W, Shukla SA, Vartanov A, Fernandes SM, Saksena G, Cibulskis K, Tesar B, Gabriel S, Hacohen N, Meyerson  M, Lander ES, Neuberg D, Brown JR, Getz G, Wu CJ
 \newline\noindent\emph{ Cell} 2013 Feb 14;152(4):714-26
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(23374354)}{\bf  Integrative eQTL-based analyses reveal the biology of  breast cancer risk loci}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/23374354}{\bf  Integrative eQTL-based analyses reveal the biology of  breast cancer risk loci}\vspace{-0.03in}
 \newline\noindent Li Q, Seo JH, Stranger B, \textbf{McKenna A}, Pe'er I, Laframboise T, Brown M, Tyekucheva S, Freedman ML
 \newline\noindent\emph{ Cell} 2013 Jan 31;152(3):633-41
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(23334667)}{\bf  Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/23334667}{\bf  Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations}\vspace{-0.03in}
 \newline\noindent Brastianos PK, Horowitz PM, Santagata S, Jones RT, \textbf{McKenna A}, Getz G, Ligon KL, Palescandolo E, Van Hummelen P, Ducar MD, Raza A, Sunkavalli A, Macconaill LE, Stemmer-Rachamimov AO, Louis DN, Hahn WC, Dunn IF, Beroukhim R
 \newline\noindent\emph{ Nat Genetics} 2013 Mar;45(3):285-9
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(23334666)}{\bf  The genetic landscape of high-risk neuroblastoma}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/23334666}{\bf  The genetic landscape of high-risk neuroblastoma}\vspace{-0.03in}
 \newline\noindent Pugh TJ, Morozova O, Attiyeh EF, Asgharzadeh S, Wei JS, Auclair D, Carter SL, Cibulskis K, Hanna M, Kiezun A, Kim J, Lawrence MS, Lichenstein L, \textbf{McKenna A}, Pedamallu CS, Ramos AH, Shefler E, Sivachenko A, Sougnez C, Stewart C, Ally A, Birol I, Chiu R, Corbett RD, Hirst M, Jackman SD, Kamoh B, Khodabakshi AH, Krzywinski M, Lo A, Moore RA, Mungall KL, Qian J, Tam A, Thiessen N, Zhao Y, Cole KA, Diamond M, Diskin SJ, Mosse YP, Wood AC, Ji L, Sposto R, Badgett T, London WB, Moyer Y, Gastier-Foster JM, Smith MA, Guidry Auvil JM, Gerhard DS, Hogarty MD, Jones SJ, Lander ES, Gabriel SB, Getz G, Seeger RC, Khan J, Marra MA, Meyerson M, Maris JM
 \newline\noindent\emph{ Nat Genetics} 2013 Mar;45(3):279-84
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(23313954)}{\bf  Whole-exome sequencing identifies a recurrent NAB2-STAT6 fusion in solitary fibrous tumors}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/23313954}{\bf  Whole-exome sequencing identifies a recurrent NAB2-STAT6 fusion in solitary fibrous tumors}\vspace{-0.03in}
 \newline\noindent Chmielecki J, Crago AM, Rosenberg M, O'Connor R, Walker SR, Ambrogio L, Auclair D, \textbf{McKenna A}, Heinrich MC, Frank DA, Meyerson M
 \newline\noindent\emph{ Nat Genetics} 2013 Feb;45(2):131-2
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(22960745)}{\bf  Comprehensive genomic characterization  of squamous cell lung cancers}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/22960745}{\bf  Comprehensive genomic characterization  of squamous cell lung cancers}\vspace{-0.03in}
 \newline\noindent Cancer Genome Atlas Research Network
 \newline\noindent\emph{ Nature} 2012 Sep 27;489(7417):519-25
 \bigskip
 
 \noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/None}{\bf  Medulloblastoma exome sequencing uncovers subtype-specific somatic mutations}\vspace{-0.03in}
-\newline\noindent Pugh TJ, Weeraratne SD, Archer TC, Pomeranz Krummel DA, Auclair D, Bochicchio J, Carneiro MO, Carter SL, Cibulskis K, Erlich RL, Greulich H, Lawrence MS, Lennon NJ, \textbf{McKenna A}, Meldrim J, Ramos AH, Ross MG, Russ C, Shefler E, Sivachenko A, Sogoloff B, Stojanov P, Tamayo P, Mesirov JP, Amani V, Teider N, Sengupta S, Francois JP, Northcott PA, Taylor MD, Yu F, Crabtree GR, Kautzman AG, Gabriel SB, Getz G, Jäger N, Jones DT, Lichter P, Pfister SM, Roberts TM, Meyerson M, Pomeroy SL, Cho YJ
+\newline\noindent Pugh TJ, Weeraratne SD, Archer TC, Pomeranz Krummel DA, Auclair D, Bochicchio J, Carneiro MO, Carter SL, Cibulskis K, Erlich RL, Greulich H, Lawrence MS, Lennon NJ, \textbf{McKenna A}, Meldrim J, Ramos AH, Ross MG, Russ C, Shefler E, Sivachenko A, Sogoloff B, Stojanov P, Tamayo P, Mesirov JP, Amani V, Teider N, Sengupta S, Francois JP, Northcott PA, Taylor MD, Yu F, Crabtree GR, Kautzman AG, Gabriel SB, Getz G, JÃ¤ger N, Jones DT, Lichter P, Pfister SM, Roberts TM, Meyerson M, Pomeroy SL, Cho YJ
 \newline\noindent\emph{ Nature} 2012 Aug 2;488(7409):106-10
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(22810696)}{\bf  Comprehensive molecular characterization of human colon and rectal cancer}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/22810696}{\bf  Comprehensive molecular characterization of human colon and rectal cancer}\vspace{-0.03in}
 \newline\noindent Cancer Genome Atlas Network
 \newline\noindent\emph{ Nature} 2012 Jul 18;487(7407):330-7
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(22544022)}{\bf  Absolute quantification of somatic DNA alterations in human cancer}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/22544022}{\bf  Absolute quantification of somatic DNA alterations in human cancer}\vspace{-0.03in}
 \newline\noindent Carter SL, Cibulskis K, Helman E, \textbf{McKenna A}, Shen H, Zack T, Laird PW, Onofrio RC, Winckler W, Weir BA, Beroukhim R, Pellman D, Levine DA, Lander ES, Meyerson M, Getz G
 \newline\noindent\emph{ Nat Biotechnology} 2012 May;30(5):413-21
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(22543379)}{\bf  The 1000 Genomes Project: data management and community access}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/22543379}{\bf  The 1000 Genomes Project: data management and community access}\vspace{-0.03in}
 \newline\noindent Clarke L, Zheng-Bradley X, Smith R, Kulesha E, Xiao C, Toneva I, Vaughan B, Preuss D, Leinonen R, Shumway M, Sherry S, Flicek P; 1000 Genomes Project Consortium
 \newline\noindent\emph{ Nat Methods} 2012 Apr 27;9(5):459-62
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(21917140)}{\bf  The functional spectrum of low-frequency coding variation}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/21917140}{\bf  The functional spectrum of low-frequency coding variation}\vspace{-0.03in}
 \newline\noindent Marth GT, Yu F, Indap AR, Garimella K, Gravel S, Leong WF, Tyler-Smith C, Bainbridge M, Blackwell T, Zheng-Bradley X, Chen Y, Challis D, Clarke L, Ball EV, Cibulskis K, Cooper DN, Fulton B, Hartl C, Koboldt D, Muzny D, Smith R, Sougnez C, Stewart C, Ward A, Yu J, Xue Y, Altshuler D, Bustamante CD, Clark AG, Daly M,  DePristo M, Flicek P, Gabriel S, Mardis E, Palotie A, Gibbs R; 1000 Genomes Project
 \newline\noindent\emph{ Genome Biol}  2011 Sep 14;12(9):R84
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(21798893)}{\bf  The mutational landscape of head and neck squamous cell  carcinoma}\vspace{-0.03in}
-\newline\noindent Stransky N, Egloff AM, Tward AD, Kostic AD, Cibulskis K, Sivachenko A, Kryukov GV, Lawrence MS, Sougnez C, \textbf{McKenna A}, Shefler E, Ramos AH, Stojanov P, Carter SL, Voet D, Cortés ML, Auclair D, Berger MF, Saksena G, Guiducci C, Onofrio RC, Parkin M, Romkes M, Weissfeld JL, Seethala RR, Wang L, Rangel-Escareño C, Fernandez-Lopez JC, Hidalgo-Miranda A, Melendez-Zajgla J, Winckler W, Ardlie K, Gabriel SB, Meyerson M, Lander ES, Getz G, Golub TR, Garraway LA, Grandis JR
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/21798893}{\bf  The mutational landscape of head and neck squamous cell  carcinoma}\vspace{-0.03in}
+\newline\noindent Stransky N, Egloff AM, Tward AD, Kostic AD, Cibulskis K, Sivachenko A, Kryukov GV, Lawrence MS, Sougnez C, \textbf{McKenna A}, Shefler E, Ramos AH, Stojanov P, Carter SL, Voet D, CortÃ©s ML, Auclair D, Berger MF, Saksena G, Guiducci C, Onofrio RC, Parkin M, Romkes M, Weissfeld JL, Seethala RR, Wang L, Rangel-EscareÃ±o C, Fernandez-Lopez JC, Hidalgo-Miranda A, Melendez-Zajgla J, Winckler W, Ardlie K, Gabriel SB, Meyerson M, Lander ES, Getz G, Golub TR, Garraway LA, Grandis JR
 \newline\noindent\emph{ Science} 2011 Aug 26;333(6046):1157-60
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(21730125)}{\bf  Demographic history and rare allele sharing among human populations}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/21730125}{\bf  Demographic history and rare allele sharing among human populations}\vspace{-0.03in}
 \newline\noindent Gravel S, Henn BM, Gutenkunst RN, Indap AR, Marth GT, Clark AG, Yu F, Gibbs RA; 1000 Genomes Project, Bustamante CD
 \newline\noindent\emph{ Proc Natl Acad Sci U S A} 2011 Jul 19;108(29):11983-8
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(21666693)}{\bf  Variation in genome-wide mutation rates within and between human families}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/21666693}{\bf  Variation in genome-wide mutation rates within and between human families}\vspace{-0.03in}
 \newline\noindent Conrad DF, Keebler JE, DePristo MA, Lindsay SJ, Zhang Y, Casals F, Idaghdour  Y, Hartl CL, Torroja C, Garimella KV, Zilversmit M, Cartwright R, Rouleau GA, Daly M, Stone EA, Hurles ME, Awadalla P; 1000 Genomes Project
 \newline\noindent\emph{ Nat Genetics} 2011 Jun 12;43(7):712-4
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(21653522)}{\bf  The variant call format and VCFtools}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/21653522}{\bf  The variant call format and VCFtools}\vspace{-0.03in}
 \newline\noindent Danecek P, Auton A, Abecasis G, Albers CA, Banks E, DePristo MA, Handsaker RE, Lunter G, Marth GT, Sherry ST, McVean G, Durbin R; 1000 Genomes Project Analysis Group
 \newline\noindent\emph{ Bioinformatics} 2011 Aug 1;27(15):2156-8
 \bigskip
@@ -483,17 +481,17 @@
 \newline\noindent\emph{ Nat Genetics} 2011 May;43(5):491-8
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(21293372)}{\bf  Mapping copy number variation by population-scale genome sequencing}\vspace{-0.03in}
-\newline\noindent Mills RE, Walter K, Stewart C, Handsaker RE, Chen K, Alkan C, Abyzov A, Yoon  SC, Ye K, Cheetham RK, Chinwalla A, Conrad DF, Fu Y, Grubert F, Hajirasouliha I,  Hormozdiari F, Iakoucheva LM, Iqbal Z, Kang S, Kidd JM, Konkel MK, Korn J, Khurana E, Kural D, Lam HY, Leng J, Li R, Li Y, Lin CY, Luo R, Mu XJ, Nemesh J, Peckham HE, Rausch T, Scally A, Shi X, Stromberg MP, Stütz AM, Urban AE, Walker JA, Wu J, Zhang Y, Zhang ZD, Batzer MA, Ding L, Marth GT, McVean G, Sebat J, Snyder M, Wang J, Ye K, Eichler EE, Gerstein MB, Hurles ME, Lee C, McCarroll SA,  Korbel JO; 1000 Genomes Project
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/21293372}{\bf  Mapping copy number variation by population-scale genome sequencing}\vspace{-0.03in}
+\newline\noindent Mills RE, Walter K, Stewart C, Handsaker RE, Chen K, Alkan C, Abyzov A, Yoon  SC, Ye K, Cheetham RK, Chinwalla A, Conrad DF, Fu Y, Grubert F, Hajirasouliha I,  Hormozdiari F, Iakoucheva LM, Iqbal Z, Kang S, Kidd JM, Konkel MK, Korn J, Khurana E, Kural D, Lam HY, Leng J, Li R, Li Y, Lin CY, Luo R, Mu XJ, Nemesh J, Peckham HE, Rausch T, Scally A, Shi X, Stromberg MP, StÃ¼tz AM, Urban AE, Walker JA, Wu J, Zhang Y, Zhang ZD, Batzer MA, Ding L, Marth GT, McVean G, Sebat J, Snyder M, Wang J, Ye K, Eichler EE, Gerstein MB, Hurles ME, Lee C, McCarroll SA,  Korbel JO; 1000 Genomes Project
 \newline\noindent\emph{ Nature} 2011 Feb 3;470(7332):59-65
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(21030649)}{\bf  Diversity of human copy number variation and multicopy genes}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/21030649}{\bf  Diversity of human copy number variation and multicopy genes}\vspace{-0.03in}
 \newline\noindent Sudmant PH, Kitzman JO, Antonacci F, Alkan C, Malig M, Tsalenko A, Sampas N,  Bruhn L, Shendure J; 1000 Genomes Project, Eichler EE
 \newline\noindent\emph{ Science} 2010 Oct 29;330(6004):641-6
 \bigskip
 
-\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/Some(20981092)}{\bf  A map of human genome variation from population-scale sequencing}\vspace{-0.03in}
+\noindent\href{https://www.ncbi.nlm.nih.gov/pubmed/20981092}{\bf  A map of human genome variation from population-scale sequencing}\vspace{-0.03in}
 \newline\noindent 1000 Genomes Project Consortium, Abecasis GR, Altshuler D, Auton A, Brooks LD, Durbin RM, Gibbs RA, Hurles ME, McVean GA
 \newline\noindent\emph{ Nature} 2010 Oct 28;467(7319):1061-73
 \bigskip
@@ -516,19 +514,22 @@
 \medskip
 \marginhead{Select \newline Talks}
 
-\noindent \textit{"Capturing high-dimensional cell state and cell fate from single cells".} Machine Learning Strategies for Disease Prediction. Technical University of Denmark. \dates{May, 2018}
+
+\noindent \textit{"Single cell state and fate: application to tumor heterogeneity and metastasis".} National Cancer Institute Workshop on Linear and Non-Linear Metastases [Invited]. \dates{September, 2018}
 \\
-\newline \noindent \textit{"Recovering single-cell state in conjunction with lineage in Drosophila".} Fly Cell Atlas meeting. University of Leuven. \dates{December, 2017}
+\newline \noindent \textit{"Capturing high-dimensional cell state and cell fate from single cells".} Machine Learning Strategies for Disease Prediction. Technical University of Denmark. [Invited]\dates{May, 2018}
 \\
-\newline \noindent \textit{"Information storage and recovery using a diversity of second-generation sequencing technologies".} Genome 10K and Genome Science 2017. Earlham Institute. \dates{September, 2017}
+\newline \noindent \textit{"Recovering single-cell state in conjunction with lineage in Drosophila".} Fly Cell Atlas meeting. [Invited] University of Leuven. \dates{December, 2017}
+\\
+\newline \noindent \textit{"Information storage and recovery using a diversity of second-generation sequencing technologies".} Genome 10K and Genome Science 2017. [Invited] Earlham Institute. \dates{September, 2017}
 \\
 \newline \noindent \textit{""Whole-organism lineage tracing with CRISPR-Cas9 barcodes".}
-Genome Engineering Workshop 5.0. The Broad Institute of Harvard and MIT. \dates{May, 2017}
+Genome Engineering Workshop 5.0. The Broad Institute of Harvard and MIT. [Invited]\dates{May, 2017}
 \\
 \newline \noindent \textit{"Contiguity in Genome Sequencing -- Methods and Applications".}
 NHGRI Sequencing Technology Development Meeting. \dates{May, 2015}
 \\
-\newline \noindent \textit{"Mutation discovery in tumor sequencing".} I led a two-day training on cancer genomics at the Carlos Slim Institute of Health in Mexico City.\dates{June, 2012}
+\newline \noindent \textit{"Mutation discovery in tumor sequencing".} Our team led a two-day training on cancer genomics at the Carlos Slim Institute of Health in Mexico City.\dates{June, 2012}
 
 % \textit{"CapSeg: inferring copy number from matched whole-exome tumor sequencing"}. Aaron McKenna, Matthew Meyerson, Gad Getz, and Scott Carter. Poster. The Cancer Genome Atlas' 1st Annual Scientific Symposium. November 2011
 
@@ -539,9 +540,15 @@ NHGRI Sequencing Technology Development Meeting. \dates{May, 2015}
 \medskip
 \marginhead{Service}
 
-\noindent {\bf Reviewed for:} \textit{Cell}, \textit{Bioinformatics}, \textit{Molecular Oncology}, \textit{BMC Medical Genomics}, \textit{eLife}, \textit{GigaScience}
+\noindent {\bf Reviewed for:} \textit{Cell}, \textit{Bioinformatics}, \textit{Molecular Oncology}, \textit{BMC Medical Genomics}, \textit{eLife}, \textit{GigaScience}, \textit{Nucleotide Acids Research}
 \\
-\newline\noindent Co-founder of the \href{http://youngalliance.github.io/}{Young Alliance Against Cancer (YAAC)}, a Germany-based non-profit focused on bridging the gap between basic science and clinical training for young cancer researchers
+\newline \noindent {\bf Program committee for:} 
+\\
+\newline \noindent \href{http://alcob2019.irdta.eu/}{\bf AlCoB 2019}, May 2019, University of California, Berkeley, CA
+\\
+\newline \noindent {\bf Other professional service:} 
+\\
+\newline\noindent Co-founder of the \href{http://youngalliance.github.io/}{Young Alliance Against Cancer (YAAC}, a Germany-based non-profit focused on bridging the gap between basic science and clinical training for young cancer researchers
 
 \bigskip
 
